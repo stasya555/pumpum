@@ -1,0 +1,116 @@
+#app {
+    margin: 10px;
+}
+
+body{
+  margin: 0 100px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+width: 1000px;
+margin: 0 auto;
+}
+
+ .figure-right{
+    display: flex;
+}
+
+  .black-ellipse {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+   .black-rectangular {
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    margin: 5pt;
+  }
+
+ .figure-left{
+    display: flex;
+    gap: 1px;
+ }
+  .square{
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    gap: 2px;
+  }
+
+main{
+  display: block;
+}
+
+.top{
+    display: flex;
+    margin-top: 10pt;
+}
+
+.top_article{
+  text-align: justify;
+  padding: 50px 30px 10px 100px;
+}
+
+.circle{
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 200px;
+}
+
+.section{
+  display: flex;
+  gap: 10pt;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.sidebar_left{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tetragon{
+  width: 250px;
+  height: 140px;
+  background-color: black;
+  margin: 0 50px;
+}
+
+.sidebar_center{
+  max-width: 700;
+  flex-direction: column;
+  padding: 10px;
+  gap: 30px;
+  
+}
+
+.sidebar_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangular{
+  min-width: 50px;
+  height: 50px;
+  background-color: black;
+  margin: 20px 50px;
+
+}
+
+.figure{
+ display: flex;
+ flex-direction: row;
+}
